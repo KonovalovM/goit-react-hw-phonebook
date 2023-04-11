@@ -1,30 +1,32 @@
-import styled from 'styled-components';
-
+import styled from '@emotion/styled';
+import or from 'images/bg1.jpg';
 export const Container = styled.div`
-  padding: 15px 30px;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 15px;
-  width: 450px;
-box-shadow: 0 1px 4px rgba(0, 0, 0, 1), -23px 0 20px -23px rgba(0, 0, 0, 0.8),
-            23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+  min-height: 200px;
+  display: grid;
+  align-items: center;
+  margin: 0 auto;  
+  width: 600px;
+  background-color: #edb562e8;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 1), -23px 0 20px -23px rgba(0, 0, 0, 0.8),
+             23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
  
 `;
 
-export const Section = styled.section`
-  &:not(:last-child) {
-    margin-bottom: 15px;
-  }
+export const Wrapper = styled.div`
+  // background-color: #edb562e8; 
+  padding-top: 130px; 
+  padding-bottom: 70px;
+  background-image: url(${or});
+  background-size: cover;
+  background-repeat: repeat;
 `;
 
-export const TitleH1 = styled.h1`
-  margin-bottom: 15px;
-  font-size: 32px;
-  font-weight: bold;
-`;
-
-export const TitleH2 = styled.h2`
-  margin-bottom: 15px;
-  font-size: 20px;
-  font-weight: bold;
+export const Footer = styled.footer`
+  color: white;
+  padding: 20px;
+  text-align: center;
+  background-color: #05beff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 1), -23px 0 20px -23px rgba(0, 0, 0, 0.8),
+             23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 `;
