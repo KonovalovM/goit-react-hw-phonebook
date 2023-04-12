@@ -6,31 +6,3 @@ export const List = styled.ul`
   padding: 0 15px;
   width: 360px;
 `;
-export const Item = styled.li`
-  display: flex;
-  margin-left: 20px; 
-  justify-content: space-between;
-  font-size: 15px;
-  &:not(:last-child) {
-    margin-bottom: 10px;
-  } 
-  &:before {
-    content: "";
-    width: 5px;
-    height: 5px;
-    background: black;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: -15px;
-    margin-top: 6px;
-}
-`;
-export const Title = styled.p`
-  margin-left: 8px;  
-  font-size: 20px;
-`;
-
-export const Button = styled.button`
-  margin-left: 20px;  
-  font-size: 16px;
-`;

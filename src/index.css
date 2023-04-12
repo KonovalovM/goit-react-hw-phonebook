@@ -16,7 +16,6 @@ code {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
 }
 
 ul {
@@ -37,11 +36,6 @@ p {
 
 a {
   text-decoration: none;
-  color: rgb(255, 255, 255);  
-}
-a:hover,
-a:focus {
-  color: #05beff;
 }
 
 button {
